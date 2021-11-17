@@ -1,0 +1,27 @@
+{
+  "name": "beacon-for-ibm-dotcom-api",
+  "version": "1.0.0",
+  "description": "Beacon for IBM.com Web API",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM/beacon-for-ibm-dotcom-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IBM/beacon-for-ibm-dotcom-api/issues"
+  },
+  "engines": {
+    "node": "12 || 14"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@ibmdotcom/beacon": "0.4.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.2.0",
+    "yargs": "^17.1.0"
+  }
+}

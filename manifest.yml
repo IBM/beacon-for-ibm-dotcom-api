@@ -1,9 +1,8 @@
 applications:
   - name: beacon-for-ibm-dotcom-api
-    stack: cflinuxfs3
-    buildpack: https://github.com/cloudfoundry-attic/multi-buildpack
-    command: node index.js
-    disk_quota: 1024MB
+    disk_quota: 2048MB
     memory: 128MB
     instances: 1
-    health-check-type: process
+    docker:
+      image: dbg-dds-beacon-docker-local.artifactory.swg-devops.com/beacon-for-ibm-dotcom:0.1.0
+      username: <enter username here>

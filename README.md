@@ -21,7 +21,7 @@ docker build -t $IMAGE_NAME:$IMAGE_VERSION .
 docker run -p 49160:8080 -d $IMAGE_NAME:$IMAGE_VERSION
 ```
 
-then go to: `https://localhost:49160?url=https://www.ibm.com`
+then go to: `http://localhost:49160?url=https://www.ibm.com`
 
 ### Tag and push the image
 

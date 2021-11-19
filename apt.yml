@@ -1,5 +1,0 @@
----
-repos:
-- deb [arch=amd64, trusted=yes] https://dl.google.com/linux/chrome/deb/ stable main
-packages:
-- google-chrome-stable

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ibmdotcom/beacon@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@ibmdotcom/beacon/-/beacon-0.4.1.tgz#f3749855725d578e09dc82982f939c778bc9faca"
-  integrity sha512-UAolDANkiMnoAuRaTLyKwoODtaWkf63QVQOB4+Pj4ZHxkDUYunuPLygtcXYGG+zD0IFvdyzr2FPNw9wpMX8LGQ==
+"@ibmdotcom/beacon@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@ibmdotcom/beacon/-/beacon-0.4.3.tgz#336e304014604645f812b22daf923d2b3e3792c6"
+  integrity sha512-O9MnTovjpToikUNhN2bk2D4rIPcEtDTrdSQvd+cAidFAN3uM2k4fgGuYqavqnAUqU8Lu2H4uQsjJ3SSuAVtriA==
   dependencies:
     lighthouse "^8.5.1"
     node-fetch "^2.6.1"

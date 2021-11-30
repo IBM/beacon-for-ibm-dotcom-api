@@ -6,9 +6,9 @@ const app = express();
 
 const port = process.env.PORT || argv.port || 8080;
 
-app.use(cors());
+app.get('/', cors(), async(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
 
-app.get('/', async(req, res) => {
   // get Beacon params
   const params = req.query;
   params.raw = true;

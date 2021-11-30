@@ -1,11 +1,12 @@
 const argv = require('yargs').argv;
 const beacon = require('@ibmdotcom/beacon');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 const port = process.env.PORT || argv.port || 8080;
 
-app.get('/', async(req, res) => {
+app.get('/', cors(), async(req, res) => {
   // get Beacon params
   const params = req.query;
   params.raw = true;
